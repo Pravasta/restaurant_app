@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/ui/widgets/custom_button.dart';
-import 'package:restaurant_app/ui/widgets/custom_text_field.dart';
-import 'package:restaurant_app/ui/widgets/custom_text_field_pass.dart';
+import '/ui/widgets/custom_button.dart';
+import '/ui/widgets/custom_text_field.dart';
+import '/ui/widgets/custom_text_field_pass.dart';
 import '../../shared/theme.dart';
 
 class LoginPage extends StatelessWidget {
@@ -59,9 +59,10 @@ class LoginPage extends StatelessWidget {
     }
 
     return Scaffold(
+      backgroundColor: backGroundColor,
       appBar: AppBar(
         elevation: 2,
-        backgroundColor: whiteColor,
+        backgroundColor: backGroundColor,
         leading: IconButton(
           onPressed: () => Navigator.pop(context),
           icon: Icon(

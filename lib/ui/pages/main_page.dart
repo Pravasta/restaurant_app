@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restaurant_app/cubit/page_cubit.dart';
-import 'package:restaurant_app/shared/theme.dart';
-import 'package:restaurant_app/ui/pages/home_page.dart';
-import 'package:restaurant_app/ui/pages/profile_page.dart';
-import 'package:restaurant_app/ui/pages/recent_page.dart';
-import 'package:restaurant_app/ui/pages/search_page.dart';
+import '/cubit/page_cubit.dart';
+import '/shared/theme.dart';
+import '/ui/pages/home_page.dart';
+import '/ui/pages/profile_page.dart';
+import '/ui/pages/recent_page.dart';
+import '/ui/pages/search_page.dart';
 
 import '../widgets/custom_button_navigation.dart';
 
@@ -75,7 +75,7 @@ class MainPage extends StatelessWidget {
     return BlocBuilder<PageCubit, int>(
       builder: (context, currIndex) {
         return Scaffold(
-          backgroundColor: whiteColor,
+          backgroundColor: backGroundColor,
           body: Stack(
             children: [
               indexPage(currIndex),

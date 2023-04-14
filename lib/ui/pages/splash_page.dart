@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/shared/theme.dart';
+import '/shared/theme.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -13,7 +13,6 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
-    // TODO: implement initState
     Timer(
       const Duration(seconds: 3),
       () {

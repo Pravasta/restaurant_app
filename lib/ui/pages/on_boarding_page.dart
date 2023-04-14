@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/shared/theme.dart';
-import 'package:restaurant_app/ui/widgets/custom_button.dart';
+import '/shared/theme.dart';
+import '/ui/widgets/custom_button.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({super.key});
@@ -8,7 +8,7 @@ class OnBoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: whiteColor,
+      backgroundColor: backGroundColor,
       body: Padding(
         padding: EdgeInsets.only(left: defaultMargin, right: defaultMargin),
         child: Column(

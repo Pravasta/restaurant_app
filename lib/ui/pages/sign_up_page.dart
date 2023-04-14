@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/shared/theme.dart';
-import 'package:restaurant_app/ui/widgets/custom_button.dart';
+import '/shared/theme.dart';
+import '/ui/widgets/custom_button.dart';
 
 import '../widgets/custom_text_field.dart';
 import '../widgets/custom_text_field_pass.dart';
@@ -11,9 +11,10 @@ class SignUpPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: backGroundColor,
       appBar: AppBar(
         elevation: 2,
-        backgroundColor: whiteColor,
+        backgroundColor: backGroundColor,
         leading: IconButton(
           onPressed: () => Navigator.pop(context),
           icon: Icon(

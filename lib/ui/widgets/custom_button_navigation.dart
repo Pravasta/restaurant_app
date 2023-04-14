@@ -1,4 +1,4 @@
-import 'package:restaurant_app/cubit/page_cubit.dart';
+import '/cubit/page_cubit.dart';
 
 import '/shared/theme.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +8,8 @@ class CustomBottomNavigation extends StatelessWidget {
   final int index;
   final String image;
   final String title;
-  const CustomBottomNavigation({
+  // ignore: prefer_const_constructors_in_immutables
+  CustomBottomNavigation({
     super.key,
     required this.index,
     required this.image,

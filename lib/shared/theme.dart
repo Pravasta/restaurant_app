@@ -7,6 +7,7 @@ double defaultRadius = 17.0;
 Color primaryColor = const Color(0xff008C8C);
 Color blackColor = const Color(0xff000000);
 Color whiteColor = const Color(0xffFFFFFF);
+Color backGroundColor = const Color(0xffFAFAFA);
 Color redColor = const Color(0xffC34D33);
 Color greyColor = const Color.fromARGB(255, 140, 141, 150);
 
